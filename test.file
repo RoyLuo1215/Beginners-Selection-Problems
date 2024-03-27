@@ -1,0 +1,19 @@
+Question 1. num = int(input("How many minutes:"))
+            sec = str(num * int(60))
+            print(str("There is " + sec + " seconds."))
+
+Question 2. print("How much birthday cards does Cruella have?")
+            num = int(input(">>"))
+            num2 = str(num * int(2))
+            print(str("Jane has " + num2 + " birthday cards."))
+
+Question 3. print("Enter your age in years.")
+            num = int(input(">>"))
+            num2 = str(num * int(365))
+            print(str("You are " + num2 + " years old."))
+
+Question 3.1. print("Enter your age in years.")
+              num = int(input(">>"))
+              num2 = str(num * int(365))
+              num3 = str(int(36500) - int(num * int(365)))
+              print(str("You are " + num2 + " years old. In " + num3 + " days you will be 100 years old."))
